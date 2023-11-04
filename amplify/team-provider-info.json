@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-monitorweb-dev-142252-authRole",
+      "UnauthRoleArn": "arn:aws:iam::492437066188:role/amplify-monitorweb-dev-142252-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::492437066188:role/amplify-monitorweb-dev-142252-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-monitorweb-dev-142252-deployment",
+      "UnauthRoleName": "amplify-monitorweb-dev-142252-unauthRole",
+      "StackName": "amplify-monitorweb-dev-142252",
+      "StackId": "arn:aws:cloudformation:us-east-2:492437066188:stack/amplify-monitorweb-dev-142252/71d07ce0-743d-11ee-871c-02ae22fdc427",
+      "AmplifyAppId": "d1rzkkyd3ebnj9"
+    },
+    "categories": {
+      "auth": {
+        "reactAmplifyCognito": {}
+      }
+    }
+  },
+  "ordmanager": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-monitorweb-ordmanager-124202-authRole",
+      "UnauthRoleArn": "arn:aws:iam::492437066188:role/amplify-monitorweb-ordmanager-124202-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::492437066188:role/amplify-monitorweb-ordmanager-124202-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-monitorweb-ordmanager-124202-deployment",
+      "UnauthRoleName": "amplify-monitorweb-ordmanager-124202-unauthRole",
+      "StackName": "amplify-monitorweb-ordmanager-124202",
+      "StackId": "arn:aws:cloudformation:us-east-2:492437066188:stack/amplify-monitorweb-ordmanager-124202/304f6b80-781d-11ee-a53a-06a723757323",
+      "AmplifyAppId": "d1qkkfsdlq3brf"
+    },
+    "categories": {
+      "auth": {
+        "reactAmplifyCognito": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1qkkfsdlq3brf",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

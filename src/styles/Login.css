@@ -1,0 +1,52 @@
+.Formulario {
+    width: Fill(396px);
+    height: Hug(268px);
+    gap: 24px;
+    text-align: left;
+}
+
+.textos {
+    /* font-size: 12px; */
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #262626;
+}
+
+.elbotondiv {
+    width: Fill (396px);
+    height: Hug (48px);
+    padding: 12px, 0px, 12px, 0px;
+    border-radius: 40px;
+    gap: 10px;
+    background: #6798D2;
+    text-align: center;
+}
+.elbotondiv:hover {
+    background: #B1C6DF;
+}
+
+.elboton {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.019em;
+    
+    color: white;
+}
+
+.olvidcontra {
+    color: var(--azul-oscuro-azul-oscuro-1, #3D70B0);
+    text-align: center;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: -0.266px;
+}
