@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logoPWST from '../../img/logo.png'
+import Card from 'react-bootstrap/Card';
 import '../../styles/CardLogin.css'
 
 class EmailVerify extends Component {
