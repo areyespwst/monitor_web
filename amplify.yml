@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm ci --silent
     build:
       commands:
         - echo $secretfile > ./src/aws-exports.js
