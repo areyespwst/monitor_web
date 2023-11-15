@@ -6,7 +6,6 @@ frontend:
         - npm ci --silent
     build:
       commands:
-        - echo $secretfile > ./src/aws-exports.js
         - npm run build
   artifacts:
     baseDirectory: build
